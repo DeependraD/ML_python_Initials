@@ -1,0 +1,20 @@
+# Create a new repository on the command line, done after the name for new has been created. In this example: "Agro-climate_TS.git"
+echo "# Agro-climate_TS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DeependraD/Agro-climate_TS.git
+git push -u origin master
+
+# Pushing an existing repository from the command line
+git remote add origin https://github.com/DeependraD/Agro-climate_TS.git
+git push -u origin master
+
+# After the files have been added by "git add" command, to reset all the files
+git reset
+
+# To unstage the files before commit, after adding the files
+git reset HEAD "file_name"
+git reset HEAD *.ext # Where ext is the extension of the files that will be unstaged/unadd
+
+ 
