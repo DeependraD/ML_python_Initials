@@ -23,7 +23,7 @@ Since, I now am set for learning Machine Learning (Ahh...how more cooler could i
 
 3. An website by [Smerity](https://smerity.com/articles/articles.html) who believes in "Saving the world one byte at a time"
     
-    _Warning: Only experienced allowed (And a fair one, I might add!)_
+    _Warning: Only experienced allowed. (And a fair one, I might add!)_
     
 4. A [blog](http://colah.github.io/) storyboard of a "A wandering machine learning researcher, bouncing between groups who wants to understand things clearly, and explain them well". Christopher Olah's posts are also a still too advanced a content for me by now.
 
