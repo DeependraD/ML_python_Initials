@@ -20,5 +20,10 @@ Since, I now am set for learning Machine Learning (Ahh...how more cooler could i
 2. A kaggle notebook [Keras Starter](https://www.kaggle.com/sterlingcutler/keras-starter/notebook) by Sterling Cutler is an interesting beginner's lure to another.
     
     _Not started reviewing it yet, however!_
+
+3. An website by [Smerity](https://smerity.com/articles/articles.html) who believes in "Saving the world one byte at a time"
+    Warning: Only experienced allowed (And a fair one, I might add!)
     
+4. A [blog](http://colah.github.io/) storyboard of a "A wandering machine learning researcher, bouncing between groups who wants to understand things clearly, and explain them well". Christopher Olah's posts are also a still too advanced a content for me by now.
+
 **More on the way...I'll be back soon.**
