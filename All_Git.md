@@ -1,4 +1,4 @@
-Starting from the scratch one would ideally:
+# Starting from the scratch one would ideally:
 
 1. `cd` to a suitable directory
 2. `mkdir` a new directory, to be used as the root in repo.
@@ -13,16 +13,16 @@ Starting from the scratch one would ideally:
 
 __Note: It took me almost one year to just mind the "u". I could, at least, have noticed earlier. But I didn't, so the pain.__
 
-# After the files have been added by "git add" command, to reset all the files
+- After the files have been added by `git add` command, to reset all the files (or to say, don't track any one of em!)
 git reset
 
-# To unstage the files before commit, after adding the files
-git reset HEAD "file_name"
-git reset HEAD *.ext # Where ext is the extension of the files that will be unstaged/unadd
+- After adding the files to the staging area, before the commit, use the following command to unstage/untrack each individual files:
+`git reset HEAD "file_name"`
+`git reset HEAD "*.ext"` # Where ext is the extension of the files that will be unstaged/unadd. Afterall, patterns are recogized in filename specification.
 
-# Tracking while I'm learing git
+## Tracking while I'm learing git
 
-1. When you wan to rename a file use
+1. When you want to rename a file, use
 
 ```
 git mv old_file_name new_file_name
@@ -43,6 +43,7 @@ tree will be recorded as well. And this came out right about what I actually wan
 ```
 git status
 ```
-I could feel relieved seeing that git has identified the file having been **renamed**, just the differently named versions of one another.
+I was relieved seeing that git had identified the file having been **renamed**.
+
 
 
