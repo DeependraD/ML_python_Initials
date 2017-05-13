@@ -46,6 +46,7 @@ tree will be recorded as well. And this came out right about what I actually wan
 git status
 ```
 I was relieved seeing that git had identified the file having been **renamed**.
+
 _Note: This renaming stuff was anchored to my sense through an stackoverflow [post](http://stackoverflow.com/questions/6628539/how-to-tell-git-that-its-the-same-directory-just-a-different-name).
 
 
