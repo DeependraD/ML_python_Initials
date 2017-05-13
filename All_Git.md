@@ -17,7 +17,9 @@ __Note: It took me almost one year to just mind the "u". I could, at least, have
 git reset
 
 - After adding the files to the staging area, before the commit, use the following command to unstage/untrack each individual files:
+
 `git reset HEAD "file_name"`
+
 `git reset HEAD "*.ext"` # Where ext is the extension of the files that will be unstaged/unadd. Afterall, patterns are recogized in filename specification.
 
 ## Tracking while I'm learing git
