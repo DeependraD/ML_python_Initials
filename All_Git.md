@@ -11,17 +11,17 @@
 7. `git remote add origin <repo_url>`
 8. `git push -u origin master` # Hold on, I have a link for what's up with that ["u"](http://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma).
 
-__Note: It took me almost one year to just mind the "u". I could, at least, have noticed earlier. But I didn't, so the pain.__
+_Note: It took me almost one year to just mind the "u". I could, at least, have noticed earlier. But I didn't, so the pain._
 
 - After the files have been added by `git add` command, to reset all the files (or to say, don't track any one of em!)
 git reset
 
 - After adding the files to the staging area, before the commit, use the following command to unstage/untrack each individual files:
 
-`git reset HEAD "file_name"`
-
-`git reset HEAD "*.ext"` # Where ext is the extension of the files that will be unstaged/unadd. Afterall, patterns are recogized in filename specification.
-
+```
+git reset HEAD "file_name"
+git reset HEAD "*.ext"` # ext is the extension of the files that will be unstaged/unadd. Afterall, patterns are recogized in filename specification.
+```
 ## Tracking while I'm learing git
 
 1. When you want to rename a file, use
@@ -46,6 +46,7 @@ tree will be recorded as well. And this came out right about what I actually wan
 git status
 ```
 I was relieved seeing that git had identified the file having been **renamed**.
+_Note: This renaming stuff was anchored to my sense through an stackoverflow [post](http://stackoverflow.com/questions/6628539/how-to-tell-git-that-its-the-same-directory-just-a-different-name).
 
 
 
