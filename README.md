@@ -29,6 +29,6 @@ Since, I now am set for learning Machine Learning (Ahh...how more cooler could i
 
 5. https://www.reddit.com/r/learnmachinelearning/
 
-6. Unforgettable: (forums.fast.ai)...Wait how do I format this non standard link to URL?
+6. The Unforgettable: [fast.ai forum](http://forums.fast.ai)
 
 **More on the way...I'll be back soon.**
