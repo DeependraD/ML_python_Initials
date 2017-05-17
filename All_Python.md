@@ -1,4 +1,6 @@
-## Here, I have tried to compile a make-believe rich content with multiple links to materials that are likely to bolster my python skills.
+## Programming in Python
+
+Here, I have tried to compile a make-believe rich content with multiple links to materials that are likely to bolster my python skills.
 
 1. This link is pretty helpful identifying the topics that you'll basically ever need to learn in scientific python computing:
   http://www.scipy2015.scipy.org/ehome/115969/289057/
