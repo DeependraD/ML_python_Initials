@@ -16,3 +16,8 @@ Here, I have tried to compile a make-believe rich content with multiple links to
 
 5. This is pretty interesting numpy tutorial:
   https://www.youtube.com/watch?v=gtejJ3RCddE
+
+6. Comming up is the hottest one to the date I'm adding, It's the tutorial list of PyCon 2017 organized in Portland, Oregon:
+  https://www.youtube.com/playlist?list=PLx9EdBiRapx2pMiQ71hMQiMZi4nKAYDqV
+  
+  The quality of talks here...I remain endebted to all contributers helping produce such a great item. It's basically a lifetime of learning lessons. I think I'm gonna have to literally clone myself to provide me some time for going through these great repertoire.
