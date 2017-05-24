@@ -26,28 +26,32 @@ git reset HEAD "*.ext"` # ext is the extension of the files that will be unstage
 
 1. When you want to rename a file, use
 
-```
-git mv old_file_name new_file_name
-```
-It's better this way because you would'nt have to go through the hassle of adding with option `--all` each of the old_file_name and new_file_name before commiting them.
-This `mv` command automatically detects the changes in the file as rename. Great!
+ ```
+ git mv old_file_name new_file_name
+ ```
+ It's better this way because you would'nt have to go through the hassle of adding with option `--all` each of the old_file_name and new_file_name before commiting them.
+ This `mv` command automatically detects the changes in the file as rename. Great!
 
-Once, I had a file renamed with a general renaming tool (That time, Rstudios's file rename option from the file explorer window) that led me to go through this writeup.
+ Once, I had a file renamed with a general renaming tool (That time, Rstudios's file rename option from the file explorer window) that led me to go through this writeup.
 
-Then in the local repo I had added both the two new_file_name and the old_file_name with
+ Then in the local repo I had added both the two new_file_name and the old_file_name with
 
-```
-git add new_file_name old_file_name
-```
-But, to the surprise some warning came along suggesting to use `git add --all ...` option instead of the default `--ignore-removal` so that removal of paths from the working
-tree will be recorded as well. And this came out right about what I actually wanted to do. Then only, when using
+ ```
+ git add new_file_name old_file_name
+ ```
+ But, to the surprise some warning came along suggesting to use `git add --all ...` option instead of the default `--ignore-removal` so that removal of paths from the working tree will be recorded as well. And this came out right about what I actually wanted to do. Then only, when using
 
-```
-git status
-```
-I was relieved seeing that git had identified the file having been **renamed**.
+ ```
+ git status
+ ```
+ I was relieved seeing that git had identified the file having been **renamed**.
 
-_Note: This renaming stuff was anchored to my sense through an stackoverflow [post](http://stackoverflow.com/questions/6628539/how-to-tell-git-that-its-the-same-directory-just-a-different-name).
+ _Note: This renaming stuff was anchored to my sense through an stackoverflow [post](http://stackoverflow.com/questions/6628539/how-to-tell-git-that-its-the-same-directory-just-a-different-name)._
 
+2. This is an outlandishly correct way to move files between repos in github
+
+ Please stick to the rules with cautions to avoid so much so of foresaken, if not hostile, territories out there.
+
+ https://stackoverflow.com/questions/1365541/how-to-move-files-from-one-git-repo-to-another-not-a-clone-preserving-history
 
 
