@@ -1,9 +1,4 @@
 # Machine Learning + Python Initials
-To be real, we all start from the scratch when we embark anywhere. That's somewhat the same story with this repository too. I'd rather quote the exact lines which I wrote during my initial days with git, however quoting myself from that so early, even today, I realize, it's not drastically different either from the whole idea about the creation of the repo.
-
-> Repo mainly deals with learning git rather than using it.
-
-> Much of the contents in this repo will be erroneous rather than useful. This is because, a lot of time invested herein will be my attempts to improve in the use of Git.
 
 Since, I now am set for learning Machine Learning (Ahh...how more cooler could it possibly sound!), I might as well, for my own sake, list some good references to glean from. The links below are best described as not just some random blog posts or sites but well chosen, and highly informative ones, recommended by some of the major influencers in the present day field of applied ML. At the time, I'm suggesting no other than [Rachel Thomas](https://twitter.com/math_rachel) of www.fast.ai/about. Below, I list some of the blogs and websites that really are helpful or are likely to be so, since this is just the beginning.
 
