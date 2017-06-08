@@ -26,4 +26,10 @@ Since, I now am set for learning Machine Learning (Ahh...how more cooler could i
 
 6. The Unforgettable: [fast.ai forum](http://forums.fast.ai)
 
+After getting back grounds, I realized the need to have some training on scientific image processing library. What else would better do the job than (scikit-image)[https://github.com/scikit-image/] library of Python. I have got a couple of links that points me to the right direction:
+
+7. Official (User Guide)[http://scikit-image.org/docs/dev/user_guide]
+8. (Image processing with scikit-image)[http://blog.yhat.com/posts/image-processing-with-scikit-image.html] by (Eric Chiang)[https://github.com/EricChiang]
+9. Scikit-image google (forum)[https://groups.google.com/forum/#!forum/scikit-image]
+
 **More on the way...I'll be back soon.**
