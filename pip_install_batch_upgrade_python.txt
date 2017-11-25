@@ -1,0 +1,12 @@
+## first of, list all the outdated packages and direct the output to a text file
+pip list --outdated --format=freeze > outdated_packages.txt
+
+## before running the install, strip the version number off the package list
+## this is done by running a regex match (==.*) in notepad++ or suitable editor
+
+## next, run the upgrade from prompt as admin
+pip install -r outdated_packages.txt --upgrade
+
+## or just use
+for /F "delims===" %i in ('pip freeze -l') do pip install -U %i
+
